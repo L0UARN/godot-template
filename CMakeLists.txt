@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.27)
-project(godot_module)
+project(godot_extension)
 
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/project/bin")
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/project/bin")

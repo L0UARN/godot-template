@@ -3,4 +3,4 @@ entry_symbol = "modules_init"
 compatibility_minimum = 4.2
 
 [libraries]
-windows.debug.x86_64 = "res://bin/godot_module.dll"
+windows.debug.x86_64 = "res://bin/godot_extension.dll"

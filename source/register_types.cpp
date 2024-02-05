@@ -1,5 +1,6 @@
 #include "register_types.hpp"
-#include "nodes/controlled_player_body.hpp"
+
+#include "template_node.hpp"
 
 #include <gdextension_interface.h>
 #include <godot_cpp/core/class_db.hpp>
@@ -12,7 +13,7 @@ namespace godot {
         }
 
         // Register classes here
-        ClassDB::register_class<ControlledPlayerBody>();
+        ClassDB::register_class<gdext::TemplateNode>();
     }
 
     void uninitialize_modules(const ModuleInitializationLevel p_level) {
